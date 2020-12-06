@@ -30,6 +30,7 @@ $sl_no=$_GET['no'];
 	.commonDataStyle{
 		position:absolute;
 		height:18px;
+		font-size:12px;
 		font-weight:bold;
 	}
 	

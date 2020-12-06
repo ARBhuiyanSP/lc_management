@@ -17,6 +17,7 @@
 	.commonDataStyle{
 		position:absolute;
 		height:18px;
+		font-size:12px;
 		font-weight:bold;
 	}
 	
@@ -45,9 +46,9 @@
 		left:48px;
 	}
 	#printDraftAmountinWords{
-		top:510px;
-		left:197px;
-		width: 202px;
+		top:506px;
+		left:188px;
+		width: 198px;
 	}
 	#printAtSight{
 		top:488px;
@@ -106,15 +107,15 @@
 	}
 	#printInsPartShipment{
 		top:1057px;
-		left:54px;
+		left:50px;
 	}
 	#printInsAllowed{
 		top:1057px;
-		left:166px;
+		left:162px;
 	}
 	#printInsProhibited{
 		top:1057px;
-		left:274px;
+		left:270px;
 	}
 	#printLastShipmentDate{
 		top:1098px;
