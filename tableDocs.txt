@@ -1,0 +1,57 @@
+lc_management
+
+
+lc_commercial
+
+
+02. lcaf_no
+03. importer_name
+04. address
+05. irc_no
+06. year_of_renewal
+07. share_basis_amount
+08. lc_amount
+09. description_of_item_imported
+10. itc_number
+11. description_of_items
+12. itc_no
+
+
+lc_industrial
+
+01. lcaf_no
+02. unit_name
+03. unit_address
+04. irc_no
+05. year_of_renewal
+06. unit_share_amount
+07. description_of_item_imported
+08. restricted_items
+09. beneficiary_nane
+10. beneficiary_address
+11. openers_name
+12. openers_address
+13. draft_amount
+14. at_sight
+15. days_da_dp
+16. cif
+17. cfr
+18. fob
+19. drawn_us
+19. drawn_them
+20. country_origin
+21. commodities
+22. import_licence_lcaf_no
+23. hs_code
+24. issue_from
+25. issue_to
+26. insurance_cover_part_shipment
+27. insurance_cover_allowed
+28. insurance_cover_prohibited
+29. notify_transhipment
+30. notify_allowed
+31. notify_prohibited
+32. last_date_shipment
+33. last_date_negotiation
+
+
