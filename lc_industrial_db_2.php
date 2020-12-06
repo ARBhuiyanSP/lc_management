@@ -106,37 +106,37 @@
 	}
 	#printInsPartShipment{
 		top:1057px;
-		left:78px;
+		left:54px;
 	}
 	#printInsAllowed{
 		top:1057px;
-		left:190px;
+		left:166px;
 	}
 	#printInsProhibited{
 		top:1057px;
-		left:298px;
+		left:274px;
 	}
 	#printLastShipmentDate{
 		top:1098px;
-		left:210px;
+		left:200px;
 	}
 	
 	
 	#printInsCoPartShipment{
 		top:1057px;
-		left:430px;
+		left:406px;
 	}
 	#printInsCoAllowed{
 		top:1057px;
-		left:562px;
+		left:538px;
 	}
 	#printInsCoProhibited{
 		top:1057px;
-		left:650px;
+		left:626px;
 	}
 	#printLastNegDate{
 		top:1098px;
-		left:560px;
+		left:550px;
 	}
 	
 	
