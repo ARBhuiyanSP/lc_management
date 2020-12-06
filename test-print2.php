@@ -1,3 +1,4 @@
+<div id="dynamic_lcprint_section"></div>
 <?php 
 include('header.php');
 $sl_no=$_GET['no'];
