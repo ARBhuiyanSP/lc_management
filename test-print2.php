@@ -21,7 +21,6 @@ $sl_no=$_GET['no'];
 	
 	#printDataContainer{
 	  position:relative;
-	  border:1px solid blue;
 	  background-image: url("img/backgrounds/lc-db-01.jpg");
 	  background-size: 8.5in 14in;
 	  width: 8.5in;
@@ -77,22 +76,22 @@ $sl_no=$_GET['no'];
 		width: 200px;	
 	}
 	#printLcAmount{
-		top:465px;
+		top:472px;
 		left:350px;
 		width: 200px;	
 	}
 	#printLcAmountinWords{
-		top:490px;
+		top:497px;
 		left:220px;
 		width: 450px;	
 	}
 	#printDesItemsImport{
-		top:595px;
+		top:608px;
 		left:130px;
 		width: 220px;	
 	}
 	#printrestRictedItems{
-		top:595px;
+		top:608px;
 		left:425px;
 		width: 220px;	
 	}
@@ -161,19 +160,23 @@ $sl_no=$_GET['no'];
 		<?php } ?>
 	</div>
 </div> 
-<button class="btn btn-default" onclick="printDiv('printSectionArea')" style="float:right;"><i class="fa fa-print" aria-hidden="true" style="font-size: 17px;"> Print</i></button>
+<button class="btn btn-default" onclick="namebadge_printing('printSectionArea')" style="float:right;"><i class="fa fa-print" aria-hidden="true" style="font-size: 17px;"> Print</i></button>
 
 <script>
-	function printDiv(divName) {
-		 var printContents = document.getElementById(divName).innerHTML;
-		 var originalContents = document.body.innerHTML;
-
-		 document.body.innerHTML = printContents;
-
-		 window.print();
-
-		 document.body.innerHTML = originalContents;
-	}
+	var mywindow;
+        function namebadge_printing(divName, hideDirSec=false){
+				setTimeout(function () {
+                mywindow = window.open(window.location.href, "_blank");
+                mywindow.document.open();
+                mywindow.document.write($('#'+divName).html());
+                mywindow.document.close();
+                mywindow.window.print();
+                closeWin();
+            }, 500);
+        }
+        function closeWin() {
+            mywindow.close();
+        }
 	</script>
 <!-- End print section area --> 
 <!--- 2nd Page Content --->
