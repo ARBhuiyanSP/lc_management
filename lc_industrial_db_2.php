@@ -21,80 +21,80 @@
 	}
 	
 	#printBeneficiaryName{
-		top:358px;
+		top:352px;
 		left:225px;
 		width: 450px;	
 	}
 	#printBeneficiaryAddress{
-		top:380px;
+		top:370px;
 		left:225px;
 		width: 450px;	
 	}
 	#printOpenersName{
-		top:435px;
+		top:428px;
 		left:225px;
 		width: 450px;	
 	}
 	#printOpenersAddress{
-		top:455px;
+		top:444px;
 		left:225px;
 		width: 450px;	
 	}
 	#printDraftAmount{
-		top:515px;
-		left:67px;
+		top:513px;
+		left:48px;
 	}
 	#printDraftAmountinWords{
-		top:515px;
-		left:208px;
-		width: 190px;
+		top:510px;
+		left:197px;
+		width: 202px;
 	}
 	#printAtSight{
-		top:492px;
-		left:410px;
+		top:488px;
+		left:390px;
 	}
 	#printDaysDaDp{
-		top:521px;
-		left:410px;
+		top:517px;
+		left:390px;
 	}
 	#printCif{
-		top:493px;
-		left:568px;
+		top:489px;
+		left:548px;
 	}
 	#printFob{
-		top:493px;
-		left:623px;
+		top:489px;
+		left:603px;
 	}
 	#printCfr{
-		top:521px;
-		left:568px;
+		top:517px;
+		left:548px;
 	}
 	#printDrawnOnUs{
 		top:502px;
 		left:700px;
 	}
 	#printDrawnOnThem{
-		top:522px;
-		left:700px;
+		top:518px;
+		left:680px;
 	}
 	#printCountryOrigin{
-		top:568px;
-		left:686px;
+		top:564px;
+		left:682px;
 	}
 	
 	#printCommodities{
-		top:570px;
-		left:70px;
-		width: 485px;
+		top:562px;
+		left:57px;
+		width: 490px;
 	}
 	
 	#printLcafNo{
-		top:775px;
-		left:575px;
+		top:769px;
+		left:563px;
 	}
 	#printIrcNo{
-		top:832px;
-		left:575px;
+		top:827px;
+		left:564px;
 	}
 	#printShipmentFrom{
 		top:943px;
