@@ -30,23 +30,37 @@ input[type="text"].form-control, input[type="password"].form-control, textarea.f
                             <div class="col-md-1">
                                 <input type="text" name="sl_no" class="form-control validate[required]" readonly="readonly" value="<?php echo getDefaultCategoryCode('lc_industrial', 'sl_no', '03d', '001', 'LCI-') ?>"/>
                             </div>
+						
+                            <div class="col-md-1 form-lebel">Bank Name :</div>
+                            <div class="col-md-3">
+                                <select name="bank" class="select" >
+                                    <option >Choose a Bank...</option>
+                                    <option value="Dhaka Bank">Dhaka Bank</option>                                                                       
+                                    <option value="UCB Bank">UCB Bank</option>                                                                       
+                                    <option value="Premier Bank">Premier Bank</option>                                                                       
+                                    <option value="NCC Bank">NCC Bank</option>                                                                       
+                                    <option value="One Bank">One Bank</option>                                                                       
+                                </select>
+                            </div>
+                        </div>
+						<div class="form-group">
 							
 							<div class="col-md-1 form-lebel">LCAF No :</div>
                             <div class="col-md-2">
                                 <input type="text" name="lcaf_no" class="form-control validate[required]" style=""/>
                             </div>
 						
-                            <div class="col-md-1 form-lebel">Applicant Name :</div>
+                            <div class="col-md-2 form-lebel">Applicant Name :</div>
                             <div class="col-md-2">
                                 <input type="text" name="applicant_name" class="form-control validate[required]"/>
                             </div>
 						
-                            <div class="col-md-1 form-lebel">Applicant Address:</div>
+                            <div class="col-md-2 form-lebel">Applicant Address:</div>
                             <div class="col-md-3">
                                 <input type="text" name="applicant_address" class="form-control validate[required]"/>
                             </div>
 						
-                        </div> 
+                        </div>						
 						<div class="form-group">
                             <div class="col-md-1 form-lebel">IRC No :</div>
                             <div class="col-md-2">
@@ -160,7 +174,7 @@ input[type="text"].form-control, input[type="password"].form-control, textarea.f
 						
                         </div>		                   
                         <div class="form-group">
-                            <div class="col-md-1 form-lebel">Insurance Cover note/policy no :</div>
+                            <div class="col-md-1 form-lebel">Ins. Cover note/policy no :</div>
 							<div class="col-md-1">
                                 <input type="text" name="insurance_cover_no" class="form-control validate[required]"/>
                             </div>

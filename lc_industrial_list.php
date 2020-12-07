@@ -50,7 +50,7 @@ input[type="text"].form-control, input[type="password"].form-control, textarea.f
                                         <td><?php echo $item['description_of_item_imported']; ?></td>
                                         <td class="TAC">
                                             <a href="lc_industrial_view.php?no=<?php echo $item['sl_no']; ?>" title="View" class="icon-button btn btn-success"><span class="glyphicon glyphicon-eye-open" style="color:#fff;"></span></a> 
-                                            <a href="test-print2.php?no=<?php echo $item['sl_no']; ?>" title="View" class="icon-button btn btn-success"><span class="glyphicon glyphicon-eye-open" style="color:#fff;"></span></a> 
+                                            <a href="test-print2.php?no=<?php echo $item['sl_no']; ?>" title="Bank Print" class="icon-button btn btn-primary"><span class="glyphicon glyphicon-print" style="color:#fff;"></span></a> 
                                             <a href="#" class="icon-button btn btn-info"><span class="glyphicon glyphicon-pencil" style="color:#fff;"></span></a>
                                             <a href="#" class="icon-button btn btn-danger"><span class="glyphicon glyphicon-trash" style="color:#fff;"></span></a>
                                         </td>

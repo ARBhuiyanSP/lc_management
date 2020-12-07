@@ -71,15 +71,15 @@
 		left:548px;
 	}
 	#printDrawnOnUs{
-		top:502px;
-		left:700px;
+		top:496px;
+		left:681px;
 	}
 	#printDrawnOnThem{
 		top:518px;
 		left:680px;
 	}
 	#printCountryOrigin{
-		top:564px;
+		top:555px;
 		left:682px;
 	}
 	
@@ -106,15 +106,15 @@
 		left:365px;
 	}
 	#printInsPartShipment{
-		top:1057px;
+		top:1062px;
 		left:50px;
 	}
 	#printInsAllowed{
-		top:1057px;
+		top:1062px;
 		left:162px;
 	}
 	#printInsProhibited{
-		top:1057px;
+		top:1062px;
 		left:270px;
 	}
 	#printLastShipmentDate{
@@ -124,15 +124,15 @@
 	
 	
 	#printInsCoPartShipment{
-		top:1057px;
+		top:1062px;
 		left:406px;
 	}
 	#printInsCoAllowed{
-		top:1057px;
+		top:1062px;
 		left:538px;
 	}
 	#printInsCoProhibited{
-		top:1057px;
+		top:1062px;
 		left:626px;
 	}
 	#printLastNegDate{
